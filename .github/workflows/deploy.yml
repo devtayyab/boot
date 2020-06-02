@@ -30,6 +30,6 @@ jobs:
     - name: install surge
       run:  npm install -g surge
     - name :  Run Surge 
-      run:  surge ./ bootass1.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run:  surge ./ bootass1.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
         echo Add other actions to build,
         echo test, and deploy your project.
