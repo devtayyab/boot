@@ -29,7 +29,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: install surge
       run:  npm install -g surge
-    -name : Surge run
+    - name :  Run Surge 
       run:  surge ./ bootass1.surge.sh --token ${{secret.SURGE_TOKEN}}
         echo Add other actions to build,
         echo test, and deploy your project.
